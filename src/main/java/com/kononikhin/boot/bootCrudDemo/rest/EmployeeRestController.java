@@ -1,10 +1,8 @@
 package com.kononikhin.boot.bootCrudDemo.rest;
 
-import com.kononikhin.boot.bootCrudDemo.dao.EmployeeDao;
 import com.kononikhin.boot.bootCrudDemo.entity.Employee;
 import com.kononikhin.boot.bootCrudDemo.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
